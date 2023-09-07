@@ -196,9 +196,9 @@ body {
 
 
     /*small btn css*/
-.nav-toggle-btn .btn-inner {
+.nav-toggle-btn .nav-btn-inner {
     width: 26px;
-    border-bottom: 1px solid #32b67a;
+    border-bottom: 1px solid #ff4800;
     position: relative;
     transition: all .4s ease;
 }
@@ -207,7 +207,7 @@ body {
     width: 40px;
     align-items: center;
     justify-content: center;
-    border: 1px solid #32b67a;
+    border: 1px solid #ff4800;
     padding: 5px;
     border-radius: 5px;
     display: none;
@@ -215,34 +215,34 @@ body {
     position: relative;
     z-index: 999;
 }
-.nav-toggle-btn .btn-inner:before {
+.nav-toggle-btn .nav-btn-inner:before {
     content: "";
     height: 1px;
     width: 26px;
     position: absolute;
-    background: #32b67a;
+    background: #ff4800;
     top: -7px;
 }
-.nav-toggle-btn .btn-inner:after {
+.nav-toggle-btn .nav-btn-inner:after {
     content: "";
     height: 1px;
     width: 26px;
     position: absolute;
-    background: #32b67a;
+    background: #ff4800;
     top: 7px;
 }
 
-.menu-visible .nav-toggle-btn .btn-inner {
+.menu-visible .nav-toggle-btn .nav-btn-inner {
     border: transparent;
 }
 
-.menu-visible .nav-toggle-btn .btn-inner:before {
+.menu-visible .nav-toggle-btn .nav-btn-inner:before {
     transform: rotate(45deg);
     top: 0px;
     transition: all .3s ease;
 }
 
-.menu-visible .nav-toggle-btn .btn-inner:after {
+.menu-visible .nav-toggle-btn .nav-btn-inner:after {
     transform: rotate(-45deg);
     top: 0;
     transition: all .3s ease;
